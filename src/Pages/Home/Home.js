@@ -4,12 +4,13 @@ import Footer from "../Shared/Footer";
 import HeroSection from "./HeroSection";
 import useCountries from "../../hooks/useCountries";
 import CountriesCard from "./CountriesCard";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [countries] = useCountries();
-//   console.log(countries);
+  //   console.log(countries);
   const selectedCountries = countries.slice(0, 6);
-//   console.log(selectedCountries);
+  //   console.log(selectedCountries);
   return (
     <div>
       {/* <Navbar /> */}
@@ -20,6 +21,13 @@ const Home = () => {
           {selectedCountries.map((countries) => (
             <CountriesCard key={countries.id} countries={countries} />
           ))}
+        </div>
+        <div class="text-center p-10">
+          <Link to="/countries">
+            <button class="btn btn-success btn-wide loading ">
+              All Countries
+            </button>
+          </Link>
         </div>
       </div>
       {/* <Footer /> */}
