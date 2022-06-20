@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -27,22 +28,22 @@ const Navbar = () => {
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Homepage</a>
+                <Link to="/">Homepage</Link>
               </li>
               <li>
                 <a>Countries</a>
               </li>
               <li>
-                <a>Tickets</a>
+                <Link to="/tickets">Tickets</Link>
               </li>
               <li>
-                <a>About us</a>
+                <Link to="/about">About us</Link>
               </li>
             </ul>
           </div>
         </div>
         <div class="navbar-center">
-          <a class="btn btn-ghost normal-case text-xl">Football Fever</a>
+          <a href="" class="btn btn-ghost normal-case text-xl">Football Fever</a>
         </div>
         <div class="navbar-end">
         </div>
