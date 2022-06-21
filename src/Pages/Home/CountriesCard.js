@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CountriesCard = ({countries}) => {
     // console.log(countries);
@@ -15,7 +16,7 @@ const CountriesCard = ({countries}) => {
         <div class="card-body">
         <h2 class="card-title">{countries.name}</h2>
           <div class="card-actions justify-end">
-            <button class="btn btn-primary">Learn More</button>
+            <Link to={`/country-details/${countries.id}`} ><button class="btn btn-primary">Learn More</button></Link>
           </div>
         </div>
       </div>
