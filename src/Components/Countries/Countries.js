@@ -1,6 +1,6 @@
 import React from 'react';
 import useCountries from '../../hooks/useCountries';
-import CountriesCard from '../Home/CountriesCard';
+import CountriesCard from '../../Pages/Home/CountriesCard';
 
 const Countries = () => {
     const [countries] = useCountries()

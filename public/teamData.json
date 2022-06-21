@@ -1,0 +1,8 @@
+[{"id":1,"group":"Lotlux","team_1":"Ronstring","team_2":"Zoolab","team_3":"Cardguard","team_4":"Treeflex","flag":"Treeflex","category ":"Ronstring"},
+{"id":2,"group":"Stim","team_1":"Stim","team_2":"Stim","team_3":"Bigtax","team_4":"Zamit","flag":"Sub-Ex","category ":"Domainer"},
+{"id":3,"group":"Tin","team_1":"Alphazap","team_2":"Flowdesk","team_3":"Fix San","team_4":"Stim","flag":"Wrapsafe","category ":"Fixflex"},
+{"id":4,"group":"Toughjoyfax","team_1":"Alphazap","team_2":"Rank","team_3":"Prodder","team_4":"Andalax","flag":"Zaam-Dox","category ":"Matsoft"},
+{"id":5,"group":"Stronghold","team_1":"It","team_2":"Sonsing","team_3":"Mat Lam Tam","team_4":"Mat Lam Tam","flag":"Veribet","category ":"Voltsillam"},
+{"id":6,"group":"Transcof","team_1":"Solarbreeze","team_2":"Home Ing","team_3":"Temp","team_4":"It","flag":"Rank","category ":"Asoka"},
+{"id":7,"group":"Domainer","team_1":"Konklux","team_2":"Wrapsafe","team_3":"Tin","team_4":"Transcof","flag":"Lotstring","category ":"Fix San"},
+{"id":8,"group":"Transcof","team_1":"Flowdesk","team_2":"Transcof","team_3":"Stim","team_4":"Y-Solowarm","flag":"Solarbreeze","category ":"Stringtough"}]

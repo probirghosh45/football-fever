@@ -31,7 +31,10 @@ const Navbar = () => {
                 <Link to="/">Homepage</Link>
               </li>
               <li>
-                <Link to="/countries">Countries</Link>
+                <a href="/home#selected-countries" >Selected Countries</a>
+              </li>
+              <li>
+                <Link to="/countries">All Countries</Link>
               </li>
               <li>
                 <Link to="/tickets">Tickets</Link>
