@@ -10,7 +10,7 @@ const GroupAB = () => {
     // console.log("AB",groupAB);
 
     return (
-        <div class='grid sm:grid-cols-1 justify-items-center md:grid-cols-2 py-8 gap-'>
+        <div class='grid sm:grid-cols-1 justify-items-center md:grid-cols-2 py-8 gap-4'>
             {
                 groupAB.map ((ab)=>(<GroupCart key={ab.id}  groupData={ab} />))
             }
