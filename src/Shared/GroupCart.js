@@ -8,8 +8,8 @@ const GroupCart = ({ groupData }) => {
       <div class="card card-side bg-base-200 shadow-xl bg-gray-500 ">
         <div class="my-48 px-5"><h1 class="text-3xl align-middle" >{group}</h1></div>
         <figure>
-          <img
-            src="https://api.lorem.space/image/movie?w=200&h=280"
+          <img class="h-72 w-52"
+            src="https://i.ibb.co/SsHC8Fj/FIFA-World-Cup-trophy580.jpg"
             alt="Movie"
           />
         </figure>
