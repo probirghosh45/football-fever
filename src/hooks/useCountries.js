@@ -9,7 +9,7 @@ const useCountries = () => {
       .then(res => res.json())
       .then(data => {
          setCountries(data.data)
-         console.log('API Data',data);
+         // console.log('API Data',data);
       })
    },[])
 

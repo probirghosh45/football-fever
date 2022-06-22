@@ -3,8 +3,8 @@ import { Link, Outlet } from "react-router-dom";
 import useGroup from "../../hooks/useGroup";
 
 const Groups = () => {
-  const [group] = useGroup();
-  console.log(group);
+//   const [group] = useGroup();
+//   console.log(group);
   return (
     <div>
       <div className="">
