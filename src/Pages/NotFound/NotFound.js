@@ -3,7 +3,7 @@ import "./NotFound.css";
 
 const NotFound = () => {
   return (
-    <>
+    <div class="bgColor">
       <div class="mainbox">
         <div class="err">4</div>
         <i class="far fa-question-circle fa-spin"></i>
@@ -16,7 +16,7 @@ const NotFound = () => {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
