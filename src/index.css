@@ -26,3 +26,19 @@ li a.active {
   text-decoration: none;
   font-weight: bold;
 }
+
+li a:hover  {
+  text-decoration: none;
+}
+
+.photoSize{
+  width: 550px;
+  height: 250px
+}
+
+.cardBgColor {
+   color: hsl(209, 23%, 22%);
+  }
+
+  
+ 

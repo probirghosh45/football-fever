@@ -5,7 +5,7 @@ const GroupCart = ({ groupData }) => {
   const {group,flag_1,flag_2,flag_3,flag_4 ,team_1, team_2, team_3, team_4 } = groupData;
   return (
     <>
-      <div class="card card-side bg-base-200 shadow-xl bg-gray-500 ">
+      <div class="card card-side bg-base-200 shadow-xl">
         <div class="my-48 px-5"><h1 class="text-3xl align-middle" >{group}</h1></div>
         <figure>
           <img class="h-72 w-52"

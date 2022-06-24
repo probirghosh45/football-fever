@@ -1,6 +1,6 @@
 import React from "react";
-
-
+import { NavLink } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 const Navbar = () => {
   return (
     <>
@@ -28,28 +28,28 @@ const Navbar = () => {
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a href="/">Homepage</a>
+                <NavLink to="/">Homepage</NavLink>
               </li>
               <li>
-                <a href="/home#selected-countries" >Selected Countries</a>
+                <HashLink to="#selected-countries" >Selected Countries</HashLink>
               </li>
               <li>
-                <a href="/countries">All Countries</a>
+                <NavLink to="/countries">All Countries</NavLink>
               </li>
               <li>
-                <a href="/tickets">Tickets</a>
+                <NavLink to="/tickets">Tickets</NavLink>
               </li>
               <li>
-                <a href="/login">Login</a>
+                <NavLink to="/login">Login</NavLink>
               </li>
               <li>
-                <a href="/about">About us</a>
+                <NavLink to="/about">About us</NavLink>
               </li>
             </ul>
           </div>
         </div>
         <div class="navbar-center">
-          <a href="" class="btn btn-ghost normal-case text-xl">Football Fever</a>
+          <NavLink style={{ textDecoration: 'none' }} to="/home" class="btn btn-ghost normal-case text-xl">Football Fever</NavLink>
         </div>
         <div class="navbar-end">
         </div>

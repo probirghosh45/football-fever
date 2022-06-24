@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link,Outlet} from "react-router-dom";
 import useGroup from "../../hooks/useGroup";
 import CustomLink from "../../Shared/CustomLink";
 
@@ -13,20 +13,21 @@ const Groups = () => {
           <div className="flex-none">
             <ul className="menu menu-horizontal p-0 text-xl">
               <li>
-                <a href="/">Group A & B</a>
+                <CustomLink to="/">Group A & B</CustomLink>
               </li>
               <li>
-                <a href="/">Group C & D</a>
+                <CustomLink to="/Group/C-D">Group C & D</CustomLink>
               </li>
               <li>
-                <a href="/">Group E & F</a>
+                <CustomLink to="/Group/E-F">Group E & F</CustomLink>
               </li>
               <li>
-                <a href="/">Group G & H</a>
+                <CustomLink to="/Group/G-H">Group G & H</CustomLink>
               </li>
             </ul>
           </div>
         </div>
+        <Outlet/>
       </div>
     </div>
   );
