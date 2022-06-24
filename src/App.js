@@ -10,6 +10,8 @@ import GroupAB from "./Components/Groups/GroupAB";
 import GroupCD from "./Components/Groups/GroupCD";
 import GroupEF from "./Components/Groups/GroupEF";
 import GroupGH from "./Components/Groups/GroupGH";
+import RequiredAuth from "./Pages/Login/RequiredAuth";
+import Login from "./Pages/Login/Login";
 
 function App() {
   return (
@@ -26,7 +28,14 @@ function App() {
         <Route path="countries" element={<Countries />} />
         <Route path="country-details/:id" element={<Country />} />
         <Route path="about" element={<About />} />
+        {/* <Route path="tickets" element={<Tickets />} /> */}
+        
+
+        {/* Authentication */}
+        <Route path="login" element={<Login/>} />
+        <Route element={<RequiredAuth/>} >
         <Route path="tickets" element={<Tickets />} />
+        </Route>
       </Routes>
       <Footer />
     </>
